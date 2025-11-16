@@ -1,7 +1,7 @@
 # Bloco 1 – Lógica de Programação
 Projetos desenvolvidos ao final do curso bloco 1 - Lógica de Programação, utilizando Portugol Studio.
 
-##Projeto: Sistema de Cálculo de Ingresso de Cinema
+Projeto: Sistema de Cálculo de Ingresso de Cinema
 Tecnologias: Portugol Studio, lógica de programação
 
 Atividades:
@@ -14,7 +14,7 @@ Atividades:
 
 Resultado: sistema funcional capaz de calcular o valor final do ingresso conforme regras definidas.
 
-##Projeto: Sistema de Operações Bancárias
+Projeto: Sistema de Operações Bancárias
 Tecnologias: Portugol Studio, lógica de programação
 Atividades:
 – Implementação de regras de negócio bancário (saque, depósito, transferência, saldo)
