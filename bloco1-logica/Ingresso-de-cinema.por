@@ -1,16 +1,12 @@
-/*Ingresso de cinema - Planejamento da Solução:
-1) Ler o dia da semana
-2) Ler a hora de inicio da sessão
-3) Ler minutos do inicio da sessão
-4) Ler o tipo de cliente (estudante ou não)
-5) Ler o método de pagamento (Credito ou Debito)
-6) Verificar turno pela hora e minuto: Vespertino ou Noturno
-7) Verificar o dia da semana e definir valor
-7.1) Verificar se há desconto: 
-7.2) Se estudante, aplica 50% no valor e imprimir ingresso
-7.3) Caso contrario, verificar forma de pagamento:
-7.4)se cartão de credito desconto de acordo com dia
-8) Caso Contrario repetir passos de 7 para noturno
+/*
+# Projeto: Ingresso de Cinema
+Enunciado resumido:
+Calcular o valor final do ingresso com base em:
+- dia da semana (1–7)
+- horário da sessão
+- estudante (S/N)
+- forma de pagamento (D/C)
+- aplicação de tabela de preços e descontos
  */
 programa {
   funcao inicio() {
