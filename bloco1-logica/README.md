@@ -2,7 +2,7 @@
 
 Projetos criados ao final do módulo, utilizando Portugol Studio para desenvolver pensamento lógico, estruturas condicionais e resolução de problemas.
 
-Projeto: Sistema de Cálculo de Ingresso de Cinema
+# Projeto: Sistema de Cálculo de Ingresso de Cinema
 
 Tecnologias: Portugol Studio, lógica de programação
 Habilidades aplicadas (keywords ATS):
@@ -25,7 +25,7 @@ Testes funcionais e validação de entradas
 
 Resultado: sistema capaz de calcular valores conforme regras de preço, horário, tipo de cliente e descontos.
 
-Projeto: Sistema de Operações Bancárias
+# Projeto: Sistema de Operações Bancárias
 
 Tecnologias: Portugol Studio, lógica de programação
 Habilidades aplicadas (keywords ATS):
