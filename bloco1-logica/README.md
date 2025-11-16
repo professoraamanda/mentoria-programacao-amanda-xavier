@@ -1,25 +1,26 @@
-# Bloco 1 – Lógica de Programação
-Projetos desenvolvidos ao final do curso bloco 1 - Lógica de Programação, utilizando Portugol Studio.
+# 🎓 Bloco 1 – Lógica de Programação
 
-Projeto: Sistema de Cálculo de Ingresso de Cinema
-Tecnologias: Portugol Studio, lógica de programação
+Projetos criados ao final do módulo, utilizando Portugol Studio para desenvolver pensamento lógico, estruturas condicionais e resolução de problemas.
 
-Atividades:
-– Implementação de regras de negócio para definição de preços
-– Uso de condicionais aninhadas para tratar dia da semana, horário e tipo de cliente
-– Aplicação de descontos (meia-entrada e pagamento com cartão)
-– Classificação automática do período (vespertino/noturno)
-– Manipulação de variáveis, comparações e formatação de saída
-– Testes funcionais com múltiplos cenários de entrada
+🎬 Projeto 1 — Sistema de Cálculo de Ingresso de Cinema
+🛠 Tecnologias: Portugol Studio · Lógica de Programação
+📌 Atividades:
+🧠 Regras de negócio para definição de preços
+🔁 Condicionais aninhadas (if/else)
+🕒 Classificação automática do período (vespertino/noturno)
+🎟 Aplicação de meia-entrada e desconto do cartão
+🔣 Manipulação de variáveis e comparações
+🧪 Testes com múltiplos cenários
 
-Resultado: sistema funcional capaz de calcular o valor final do ingresso conforme regras definidas.
+✅ Resultado: sistema funcional que calcula o valor final do ingresso conforme todas as regras.
 
-Projeto: Sistema de Operações Bancárias
-Tecnologias: Portugol Studio, lógica de programação
-Atividades:
-– Implementação de regras de negócio bancário (saque, depósito, transferência, saldo)
-– Validação de dados e múltiplas condições
-– Manipulação de variáveis e fluxo de decisão
-– Testes funcionais com diversos cenários
-Resultado: sistema funcional com atualização dinâmica de saldo
+🏦 Projeto 2 — Sistema de Operações Bancárias
+🛠 Tecnologias: Portugol Studio · Lógica de Programação
+📌 Atividades:
+💰 Implementação de saque, depósito, transferência e saldo
+✔ Validação de dados (operações e valores)
+🔀 Fluxo de decisão
+🔢 Manipulação de variáveis
+🧪 Testes funcionais com vários cenários
 
+✅ Resultado: sistema funcional com atualização automática e consistente do saldo bancário.
