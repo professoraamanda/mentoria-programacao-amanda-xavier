@@ -1,32 +1,14 @@
-/*Planejamento da Solução - Projeto Banco 
-1) Mostrar tela de opções: ja sou cliente, ainda não sou cliente
-2) Se ainda não é cliente:
-2.1) peça nome e senha (4 digitos)
-2.2) armazena dados dentro da base de dados (matriz[100][2])
-2.3) numero da conta é a posição do cliente na base de dados
-2.4) solicitar deposito inicial de R$ 10,00
-2.5) mostrar o numero da conta e encerra o sistema
-3) Se ja é cliente:
-3.1)Pedir numero da conta e senha
-3.2)Verificar se os dados estão corretos
-3.3) Se a senha estiver incorreta:
-3.3.1) imprimir senha incorreta e solicitar senha novamente
-3.4) Se senha correta:
-3.5) menu de opções: saque, deposito, transferência e saldo
-3.6) Se saque:
-3.6.1) se saque>10 e multiplo de 5, então:
-imprimir Saque de R$ <valor>, Saldo: R$ <saldo_corrente_atualizado>
-3.6.2) senao imprimir 'saldo insuficiente'
-3.7) Se deposito:
-3.7.1) se deposito>0, então Depósito de R$ <valor> OK. 
-Saldo: R$ <saldo_corrente_atualizado> e volta para menu
-3.8)Se transferência:
-3.8.1) se 0<transferencia<=saldo, então: Transferência de R$ <valor> OK. 
-Saldo: R$ <saldo_corrente_atualizado>
-3.8.2) senao (transferencia<0) imprimir 'valor inválido'
-3.8.3) senao (transferencia>saldo) imprimir 'saldo insuficiente'
-3.9) Se saldo, então:
-3.9.1) imprimir Saldo corrente: R$ <corrente>
+/*Projeto Banco:
+Implementar um programa que leia operações bancárias e atualize o saldo de uma
+conta, seguindo regras específicas para:
+- Depósito
+- Saque
+- Transferência
+- Consulta de saldo
+Cada operação possui regras próprias de validação, como:
+- valor mínimo e múltiplos permitidos,
+- verificação de saldo,
+- atualização correta após cada transação.
 */
 programa {
   funcao inicio() {
