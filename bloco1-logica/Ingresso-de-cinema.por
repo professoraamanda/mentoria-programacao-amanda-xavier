@@ -40,90 +40,89 @@ programa {
       turno = 0
       }
     para(dia=0;dia<7;dia++){
-      se(estudante=='S'){
-        escolha(diaDaSemana){
-          caso 1:
-            valor = valorTabelado[0][turno]/2
-            pare
-          caso 2:
-            valor = valorTabelado[1][turno]/2
-            pare
-          caso 3:
-            valor = valorTabelado[2][turno]/2
-            pare
-          caso 4:
-            valor = valorTabelado[3][turno]/2
-            pare
-          caso 5:
-            valor = valorTabelado[4][turno]/2
-            pare
-          caso 6:
-            valor = valorTabelado[5][turno]/2
-            pare
-          caso 7:
-            valor = valorTabelado[6][turno]/2
-            pare
-          caso contrario:
-            escreva("\n")        
-        } 
-      }
-      senao se(pagamento=='C'){
-        escolha(diaDaSemana){
-          caso 1:
-            valor = valorTabelado[0][turno]*(1-(descontos[0][turno]/100))
-            pare
-          caso 2:
-            valor = valorTabelado[1][turno]*(1-(descontos[1][turno]/100))
-            pare
-          caso 3:
-            valor = valorTabelado[2][turno]*(1-(descontos[2][turno]/100))
-            pare
-          caso 4:
-            valor = valorTabelado[3][turno]*(1-(descontos[3][turno]/100))
-            pare
-          caso 5:
-            valor = valorTabelado[4][turno]*(1-(descontos[4][turno]/100))
-            pare
-          caso 6:
-            valor = valorTabelado[5][turno]*(1-(descontos[5][turno]/100))
-            pare
-          caso 7:
-            valor = valorTabelado[6][turno]*(1-(descontos[6][turno]/100))
-            pare
-          caso contrario:
-            escreva("\n")        
-        } 
-      }
-      senao{
-        escolha(diaDaSemana){
-          caso 1:
-            valor = valorTabelado[0][turno]
-            pare
-          caso 2:
-            valor = valorTabelado[1][turno]
-            pare
-          caso 3:
-            valor = valorTabelado[2][turno]
-            pare
-          caso 4:
-            valor = valorTabelado[3][turno]
-            pare
-          caso 5:
-            valor = valorTabelado[4][turno]
-            pare
-          caso 6:
-            valor = valorTabelado[5][turno]
-            pare
-          caso 7:
-            valor = valorTabelado[6][turno]
-            pare
-          caso contrario:
-            escreva("\n")        
-        } 
-      }      
+      escolha(diaDaSemana){
+        caso 1:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 2:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 3:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 4:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 5:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 6:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso 7:
+          se(estudante=='S'){
+            valor = valorTabelado[diaDaSemana-1][turno]/2
+          }
+          senao se(pagamento=='C'){
+            valor = valorTabelado[diaDaSemana-1][turno]*(1-(descontos[diaDaSemana-1][turno]/100))
+          }
+          senao{
+            valor = valorTabelado[diaDaSemana-1][turno]
+          }
+          pare
+        caso contrario:
+          escreva("\n")        
+      } 
     }
     //saída
     escreva("Valor do ingresso: R$ ", valor)
   }
 }
-
